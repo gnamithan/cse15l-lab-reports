@@ -5,6 +5,7 @@
 * Trying Some Commands
 * Moving Files with scp
 * Setting an SSH Key
+* Optimizing Remote Running
 ---
 ## Installing VSCode
 I already had VSCode installed from prior to this class. However, it can easily be installed through this website: [VS Code](https://code.visualstudio.com/).
