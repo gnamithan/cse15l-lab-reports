@@ -52,7 +52,7 @@ Replace "zz" with the code given from this website [here](https://sdacs.ucsd.edu
 Enter the password that it prompts for after the previous command
 
 ### Step 4:
-Log into ieng6 with the ssh command and use the ls command:
+Log into ieng6 with the ssh command and use the ls command to see the files:
 > $ ssh cs15lwi22zz@ieng6.ucsd.edu 
 
 > ls
@@ -66,9 +66,7 @@ In order to avoid having to type a password in everytime you use scp, you can cr
 On Windows, follow the guidelines given [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
 Run the following command from the powershell:
-> ssh-keygen -t ed25519
-
-![Image](sshkey_pic1.PNG)
+> ssh-keygen
 
 
 ### Step 2:
@@ -77,12 +75,13 @@ Choose the file path you want to save the key in
 
 > Enter file in which to save the key (C:\Users\username\.ssh\id_ed25519):
 
-![Image](sshkey_pic2.PNG)
-
 
 ### Step 3: 
 Enter the passphrase that is prompted and the public and private keys should been made and saved.
 You can also just press enter to not add a passphrase
+
+![Image](usepic1.PNG)
+
 ### Step 4:
 Run these commands:
 > Get-Service ssh-agent | Set-Service -StartupType Manual
@@ -93,7 +92,7 @@ Run these commands:
 
 > ssh-add  C:\Users\ngmre\.ssh\id_ed25519
 
-![Image](sshkey_pic3.PNG)
+![Image](usepic4.PNG)
 
 
 ### Step 5:
@@ -104,7 +103,7 @@ To deploy the key, run these commands:
 >scp C:\Users\username\.ssh\id_ed25519.pub user1@domain1@contoso.com:C:\Users\username\.ssh\authorized_keys
 
 
-![Image](sshkey_pic4.PNG)
+![Image](usepic2.PNG)
 
 
 ## Optimizing Remote Running
@@ -113,7 +112,7 @@ To run a command and get into the remote server simultaneously to save time, you
 
 ![Image](optimize_pic1.PNG)
 
-Another way to optimite remote running is to run multiple commands at once using semicolons like this:
+Another way to optimize remote running is to run multiple commands at once using semicolons like this:
 > $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 
