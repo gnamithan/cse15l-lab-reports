@@ -66,7 +66,7 @@ On Windows, follow the guidelines given [here](https://docs.microsoft.com/en-us/
 Run the following command from the powershell:
 > ssh-keygen -t ed25519
 
-![Image](sshkey_pic1.png)
+![Image](sshkey_pic1.PNG)
 
 
 ### Step 2:
@@ -75,7 +75,7 @@ Choose the file path you want to save the key in
 
 > Enter file in which to save the key (C:\Users\username\.ssh\id_ed25519):
 
-![Image](sshkey_pic2.png)
+![Image](sshkey_pic2.PNG)
 
 
 ### Step 3: 
@@ -91,7 +91,7 @@ Run these commands:
 
 > ssh-add  C:\Users\ngmre\.ssh\id_ed25519
 
-![Image](sshkey_pic3.png)
+![Image](sshkey_pic3.PNG)
 
 
 ### Step 5:
@@ -102,7 +102,7 @@ To deploy the key, run these commands:
 >scp C:\Users\username\.ssh\id_ed25519.pub user1@domain1@contoso.com:C:\Users\username\.ssh\authorized_keys
 
 
-![Image](sshkey_pic4.png)
+![Image](sshkey_pic4.PNG)
 
 
 ## Optimizing Remote Running
