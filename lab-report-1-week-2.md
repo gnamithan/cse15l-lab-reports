@@ -120,7 +120,7 @@ After making a change to the WhereAmI.java file locally, we copied and ran it in
 
 > First, I used the up arrow twice to get to the ssh command to connect to the remote server and the pressed enter. This is a total of 3 keystrokes
 
-> Second, I used the up arrow two more times to get to the cp command to copy the file into the server and run it within the same like and then pressed enter. This is a total of 3 keystrokes as well. 
+> Second, I used the up arrow two more times to get to the cp command to copy the file into the server and run it within the same line and then pressed enter. This is a total of 3 keystrokes as well. 
 
 > Conclusion: I used an exact of 6 keystrokes to complete the task.
 
