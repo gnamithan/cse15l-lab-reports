@@ -1,4 +1,4 @@
-# **Week 2 Lab Report**
+# **Week 2 ~ Lab Report 1**
 ## Table of Contents
 * Installing VScode
 * Remotely Connecting
