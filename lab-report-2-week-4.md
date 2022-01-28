@@ -13,7 +13,8 @@
 ### Link to Test File for a Failure-Inducing Input
 [Test File](https://github.com/agurel33/markdown-parse/blob/bee0809db8345327e80886f75bf5dbe70fa9502a/new-test-file.md)
 ### Symptom of Failure Inducing Input
-### Description
+### Description:
+#### We had added extra text below the link and the infinite loop error was a result of the fact that it was assumed that the file would end with a link. It would never reach the stopping statement and therefore, cause an infinite loop. To fix this, 
 ---
 ## Second Code Change ~ Not adding images to list of links
 ### Screenshot

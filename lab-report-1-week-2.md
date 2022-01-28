@@ -115,14 +115,14 @@ To run a command and get into the remote server simultaneously to save time, you
 Another way to optimize remote running is to run multiple commands at once using semicolons like this:
 > $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
-We want to make a local file called WhereAmI.java file, copying it into the remote server, and then run it. After editing and saving the file, we want to optimize the total time it takes to run the file in the remote server. Using methods to optimize this process would be to: 
-> First, copy and paste ssh cse15lwi22zz@ieng.ucsd.edu to get into the remote server since using the up arrow might take more keystrokes
+After making a change to the WhereAmI.java file locally, we copied and ran it in the remote server. 
+![Image](keystrokes.PNG)
 
-> Second, copy and paste the command to copy into the remote server along with the commands to run the program. This can be done at once using semicolons
+> First, I used the up arrow twice to get to the ssh command to connect to the remote server and the pressed enter. This is a total of 3 keystrokes
 
-> Output: This should have completed the task in fewer than 10 keystrokes
+> Second, I used the up arrow two more times to get to the cp command to copy the file into the server and run it within the same like and then pressed enter. This is a total of 3 keystrokes as well. 
 
->> Exactly 8 keystrokes
+> Conclusion: I used an exact of 6 keystrokes to complete the task.
 
 
 
