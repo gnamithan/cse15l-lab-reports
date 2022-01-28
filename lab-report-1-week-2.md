@@ -116,7 +116,7 @@ Another way to optimize remote running is to run multiple commands at once using
 > $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 After making a change to the WhereAmI.java file locally, we copied and ran it in the remote server. 
-![Image](keystrokes.PNG)
+![Image](keystrokes_main.PNG)
 
 > First, I used the up arrow twice to get to the ssh command to connect to the remote server and the pressed enter. This is a total of 3 keystrokes
 
