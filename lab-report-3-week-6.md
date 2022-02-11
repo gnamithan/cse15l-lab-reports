@@ -23,13 +23,13 @@ If the config file doesn't exist, create a new file and add it to the .ssh folde
 Add the following code to the config file:
 > Host ieng6 <br />
 >> HostName ieng6.ucsd.edu <br />
->>User cs15lwi22zzz (use your username)
+>> User cs15lwi22zzz (use your username)
 
 If this doesn't work, then use
->Host ieng6 <br />
-    >>HostName ieng6.ucsd.edu <br />
-    >>User cs15lwi22zzz (use your username) <br />
-    >>    IdentityFile ~/.ssh/id_rsa_ucsd
+> Host ieng6 <br />
+    >> HostName ieng6.ucsd.edu <br />
+    >> User cs15lwi22zzz (use your username) <br />
+    >> IdentityFile ~/.ssh/id_rsa_ucsd
 
 ![Image](adding_correct_code_to_config.PNG)
 
